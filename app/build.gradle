@@ -19,7 +19,7 @@ android {
     }
     sourceSets.main {
         jniLibs.srcDir 'libs'
-        jni.srcDirs = []
+        jni.srcDirs = ['libs/arm64-v8a','libs/arm64-v7a','libs/x86','libs/x86_64']
     }
     productFlavors {
     }
